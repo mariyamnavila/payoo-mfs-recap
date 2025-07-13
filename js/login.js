@@ -34,7 +34,7 @@ document.getElementById('button-login')
         console.log(phoneNumber,pinNumber);
         if (phoneNumber === '5' && pinNumber === '1234') {
             console.log('you are logged in');
-            window.location.href = '/payoo-mfs/home.html';
+            window.location.href = '/payoo-mfs/home2.html';
         } 
         else {
             alert('wrong phone number or Pin');
